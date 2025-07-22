@@ -1,0 +1,218 @@
+Factory Pattern:
+- creates object without exposing the instantiation logic to the client
+- refers to the newly created object through a common interface
+
+Singletone pattern:
+- ensure that only one instance of a class is created
+- provide a global point of access to the object
+- the implementation involves a static member in the singletone class, a private constructor and a static public method that returns reference to the static member.
+
+
+Structural :
+	1.Decorator: the intent of this pattern is to add additional responsibilities dynamically to an object
+	
+Behavioural:
+
+1.chain if responsibility:
+- we can say that each receiver contains reference of another receiver.
+- if one object can not handle handle the request then it passes the same to the next receiver and so on.
+
+Iterator:
+
+
+J2EE Design Pattern:
+	There are 3 types
+	1.Presentation Layer:
+		a.Intercepting Filter Layer
+		b.Front Controller
+	2.Business Layer
+		a.Business Delegate
+		b.Transfer object
+	3.Integration Layer
+		a.Data Access Object(DAO)
+
+
+Q.
+Read the question carefully and follow the input and output format.
+
+Given input as integer array in which consecutive elements should have a difference of 4 or more than 4.
+
+If the above condition matches display “1” else “0”
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of an integer, which is the either 1 or 0
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+
+Sample Input 1:
+6
+1
+5
+10
+6
+2
+7
+
+Sample Output 1:
+1
+
+Sample Input 2:
+-8
+
+Sample Output 2:
+Invalid array size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q.
+Ram needs to pay the school fees of his 6 year old kid. As he is busy with his work, he is not finding time to go to the school to make payment. 
+His kid's school doesn't accept online payment. So he decided to send the fee amount through his kid. 
+The available denominations of rupees or coins is 500, 100, 50, 10, 5 and 1. 
+Can you write a program to find the minimal number of coins or notes to be given to his kid?
+ 
+Input and Output Format:
+Input consists of a single integer that corresponds to the fee amount to be paid.
+Output consists of an integer that corresponds to the minimal number of coins or rupee notes.
+ 
+Print Invalid Input if the input value is negative.
+ 
+ Sample Input 1:
+682
+ 
+Sample Output 1:
+8
+ 
+
+Sample Input 2:
+-2345
+ 
+Sample Output 2:
+Invalid Input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read the question carefully and follow the input and output format.
+
+Write a program to check if the first and middle element in an array is the same, if so display “100” in output or else display the first element of the array.
+
+Note: Array size is always odd.
+
+Input and Output Format :
+The first line of the input consists of an integer, n that corresponds to the number of elements in the array.
+The next 'n' lines correspond to the elements in the array.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+3) Print "Size must be odd" when the size of the array is even.
+
+Sample Input 1:
+7
+8
+4
+5
+8
+3
+2
+1
+
+Sample Output 1:
+100
+
+Sample Input 2:
+10
+4
+5
+6
+-8
+
+Sample Output 2:
+Invalid input
+
+Sample Input 3:
+3
+4
+8
+6
+
+Sample Output 3:
+4
+
+
+
+Q.
+Read the question carefully and follow the input and output format.
+
+Given a number n, count the occurences of a number,x in n.
+
+Input and Output Format :
+The first line of the input consists of an integer n, the second line consists of an integer, which is the digit whose occurence is to be calculated. 
+Output is an integer that gives the count.
+
+Print "Number too small" if any of the 2 input numbers is less than 0 and terminate the program.
+Print "Number too large" if any of the 2 input numbers is greater than 32767 and terminate the program.
+
+Sample Input 1:
+1122
+1
+Sample Output 1:
+2
+
+
+Sample Input 2:
+-2134
+Sample Output 2:
+Number too small
+
+
+
+
+
